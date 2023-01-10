@@ -11,3 +11,6 @@ or
 if you run:
 `npm run test:watch`
 you enter the watch mode: it executes the tests, but it keeps watching the tests files, just like when we run a development server during development, which watches our source code files and therefore also reloads a page if we change the source code.
+
+# Test suites to organize the tests and organize the tests outputs
+see **validation.test.js**
