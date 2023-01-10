@@ -1,4 +1,4 @@
-import { validateStringNotEmpty, validateNumber } from './validation.js';
+import { validateStringNotEmpty, validateNumber } from "./validation.js";
 
 export function transformToNumber(value) {
   // return NaN;
@@ -15,3 +15,9 @@ export function cleanNumbers(numberValues) {
   }
   return numbers;
 }
+
+//% NB for the cleanNumbers function we need an integration test!!!
+//| NB cleanNumbers is a function that calls other functions, so we have to test the combination of different functions
+//| to have an integration test you have 2 options:
+//| 1. inside your test, you can call multiple functions instead of a single function, and use the results of multiple functions in combination
+//| 2. or you test a function that already calls other functions
