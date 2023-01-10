@@ -1,0 +1,2 @@
+What kind of code should and should not be tested? In this section we will learn how to write good tests, because you don't want to write just any kind of tests.
+Thjere are certain things in your application code that you do not want to test with your tests.
