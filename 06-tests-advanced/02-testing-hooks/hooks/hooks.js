@@ -8,6 +8,6 @@ export class User {
   }
 
   clearEmail() {
-    this.email = '';
+    this.email = "";
   }
 }
