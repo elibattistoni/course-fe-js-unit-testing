@@ -35,4 +35,7 @@ it("should execute the writeFile mehtod", () => {
 | with them you can also implement some test-specific logic in the replacement function that does something else than the original function
 | but helps you test different scenarios
 | (i.e. they can be a replacement for an API that may provide test specific behavior instead)
+
+|NB for spies --> cfr data.js and data.test.js
+|NB for mocks --> cfr io.js and io.test.js
 */
