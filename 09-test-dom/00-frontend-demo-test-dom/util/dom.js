@@ -1,7 +1,12 @@
 export function showError(message) {
-  const errorContainerElement = document.getElementById('errors');
-  const errorMessageElement = document.createElement('p');
+  // select error container
+  const errorContainerElement = document.getElementById("errors");
+
+  // create element and insert text in it
+  const errorMessageElement = document.createElement("p");
   errorMessageElement.textContent = message;
-  errorContainerElement.innerHTML = '';
+
+  // clear the error container
+  errorContainerElement.innerHTML = "";
   errorContainerElement.append(errorMessageElement);
 }
